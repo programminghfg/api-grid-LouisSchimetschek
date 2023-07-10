@@ -10,6 +10,7 @@
 		"format": "prettier --plugin-search-dir . --write ."
 	},
 	"devDependencies": {
+		"@bulatdashiev/svelte-slider": "^1.0.3",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "^1.20.1",
 		"eslint": "^8.42.0",
@@ -20,5 +21,8 @@
 		"svelte": "^3.59.1",
 		"vite": "^4.3.9"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"axios": "^1.4.0"
+	}
 }
